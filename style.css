@@ -1,0 +1,28 @@
+:root {
+    --blue-text: hsl(238, 29%, 16%);
+    --gblue-text: hsl(240, 6%, 50%);
+    --dkgblue-text: hsl(237, 12%, 33%);
+    --red-text: hsl(14, 88%, 65%);
+    --violet-gradient: hsl(273, 75%, 66%);
+    --blue-gradient: hsl(240, 73%, 65%);
+    --dividers-blue:  hsl(240, 5%, 91%);
+ 
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(var(--violet-gradient), var(--blue-gradient)); 
+    padding: 3rem;
+}
